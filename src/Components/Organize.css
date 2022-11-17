@@ -1,0 +1,35 @@
+.OrganizeContainer{
+    @apply flex flex-col justify-start mt-40 w-[80%] ml-10;
+}
+.OrganizeTittle{
+    @apply lg:text-6xl lg:font-semibold lg:w-[70%] lg:ml-10 lg:mt-10
+    xl:text-7xl xl:font-semibold xl:w-[65%] xl:ml-10 xl:mt-10;
+}
+.OrganizeDescript{
+    @apply
+    lg:text-base lg:font-semibold lg:w-[60%] lg:ml-10 lg:mt-5
+    xl:text-base xl:font-semibold xl:w-[40%] xl:ml-10 xl:mt-5;
+}
+.SecondTittle{
+    @apply text-lg font-semibold ml-10 mt-10 mr-10;
+}
+.OrganizeCardContainer{
+    @apply
+    lg:flex lg:flex-row lg:justify-start lg:mt-10 lg:ml-10
+    xl:flex xl:flex-row xl:justify-center xl:mt-10 xl:ml-10
+}
+.OrganizeCard{
+    @apply
+    lg:flex lg:flex-col lg:w-[16em] lg:h-[16em] lg:ml-10
+    xl:flex xl:flex-col xl:w-[15em] xl:h-[20em] xl:ml-10 ;
+}
+
+.OrganizeCardInfs{
+    @apply xl:flex xl:flex-col xl:mt-4
+}
+.OrganizeCardTittle{
+    @apply xl:text-lg xl:font-semibold;
+}
+.OrganizeCardPrice{
+    @apply xl:text-base xl:font-semibold xl:text-gray-500;
+}

@@ -1,0 +1,19 @@
+.HeaderContainer{
+    @apply flex flex-row w-full ;
+}
+.HeaderContent{
+    @apply flex flex-row justify-between py-5 px-36 w-full
+}
+.HeaderBanquee{
+    @apply text-3xl font-bold text-[#5BB5A2] ;
+}
+.UlHeader{
+    @apply flex flex-row space-x-7;
+}
+.LiHeader{
+    @apply text-base font-medium text-black cursor-pointer;
+}
+
+.DivBtn{
+    @apply flex flex-row space-x-4 ;
+}

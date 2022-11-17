@@ -1,0 +1,40 @@
+.NotificationsContainer{
+    @apply w-[80%] bg-[#fff] rounded-[10px] flex flex-row mt-40;
+}
+.NotifiTittle{
+
+}
+.NotifiLeft{
+    @apply lg:flex lg:flex-col lg:w-[50%] lg:ml-10
+}
+.NotifiRight{
+    @apply lg:flex lg:flex-col lg:w-[50%] lg:items-center
+}
+.NotifiTittle{
+    @apply text-7xl font-semibold
+    lg:w-[100%] lg:text-6xl
+    xl:w-[20%] xl:text-7xl
+}
+.NotifiDescription{
+    @apply text-lg font-semibold w-[70%] mt-10
+    lg:w-[90%] lg:text-base
+    xl:w-[70%] xl:text-lg
+}
+.UlNotifi{
+    @apply lg:flex lg:flex-col lg:w-[100%] lg:mt-10 justify-center lg:space-y-4
+}
+.NotifiCardContainer{
+    @apply lg:flex lg:flex-col lg:w-[50%]
+}
+.NotifiCard{
+    @apply lg:flex lg:flex-row lg:items-center lg:mt-8
+}
+.TextCardSec{
+    @apply lg:flex lg:flex-col lg:w-[100%] lg:ml-4
+}
+.NotifiCardTittle{
+    @apply lg:text-base lg:font-semibold
+}
+.NotifiCardDescription{
+    @apply lg:text-sm  lg:text-gray-500
+}

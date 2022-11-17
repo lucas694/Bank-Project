@@ -1,0 +1,41 @@
+.HeroContainer{
+    @apply
+    lg:flex lg:flex-row lg:w-[80%]  lg:mt-20
+}
+.HeroLeft{
+    @apply
+    lg:flex lg:flex-col lg:w-[50%] lg:mt-10 lg:ml-10 lg:text-black
+}
+.HeroTitle{
+    @apply text-8xl font-semibold
+    lg:text-7xl
+    2xl:text-8xl
+}
+.HeroDescript{
+    @apply
+    lg:text-lg lg:font-medium lg:mt-5
+}
+.HeroRight{
+    @apply
+    lg:flex flex-col lg:justify-center lg:mt-10 lg:ml-14
+}
+.UlHero{
+    @apply
+    lg:flex lg:flex-col lg:justify-center lg:flex-wrap lg:h-[4em] lg:space-y-2 lg:mt-10
+}
+.IconCheckWhite{
+    @apply
+    lg:text-white lg:mr-2 lg:bg-emerald-400 lg:rounded-full lg:w-6 lg:h-6 lg:shadow-gray-500 lg:shadow-md
+}
+.BtnDiv{
+    @apply
+    lg:flex lg:flex-row lg:mt-14 lg:space-x-6
+}
+.Card1{
+    @apply
+    lg:w-[15em] lg:h-[30em] lg:z-10 lg:absolute
+}
+.Card2{
+    @apply
+    lg:w-[21em] lg:h-[30em] lg:z-0 lg:mt-[-5em]
+}

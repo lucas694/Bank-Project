@@ -1,0 +1,44 @@
+.TransactionsContainer{
+    @apply flex flex-row w-[80%] mt-40
+}
+.TransactionsTittle{
+    @apply text-7xl font-semibold
+    lg:w-[100%] lg:text-6xl
+    xl:w-[85%] xl:text-7xl
+}
+.TransactionsDescription{
+    @apply text-lg font-semibold w-[70%] mt-10
+    lg:w-[90%] lg:text-base
+    xl:w-[70%] xl:text-lg
+}
+.TransactionsLeft{
+    @apply lg:flex lg:flex-col lg:w-[50%] lg:ml-10
+}
+.TransactionsRight{
+    @apply lg:flex lg:flex-col lg:w-[50%] lg:items-center
+}
+.IconCheckGreen{
+    @apply lg:text-emerald-400 lg:mr-2 lg:bg-white lg:rounded-full lg:w-6 lg:h-6 lg:shadow-gray-500 lg:shadow-md
+}
+.UlTrans{
+    @apply lg:flex lg:flex-col lg:w-[100%] lg:mt-10 justify-center lg:space-y-4
+}
+.LiTrans{
+    @apply lg:flex lg:flex-row lg:w-[100%] lg:justify-between
+}
+.TransCardContainer{
+    @apply lg:flex lg:flex-col lg:w-[50%]
+}
+
+.TransCard{
+    @apply lg:flex lg:flex-row lg:items-center lg:mt-8
+}
+.TextCardSection{
+    @apply lg:flex lg:flex-col lg:w-[100%] lg:ml-4
+}
+.TransCardTittle{
+    @apply lg:text-base lg:font-semibold
+}
+.TransCardDescription{
+    @apply lg:text-sm  lg:text-gray-500
+}
