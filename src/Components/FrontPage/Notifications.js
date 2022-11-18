@@ -1,7 +1,7 @@
 import "./Notifications.css"
-import Li from "./Li";
+import Li from "../Li";
 import {FaCheckCircle} from "react-icons/fa";
-import BankoIcon from "../Assets/Cards/BankoIcon.png";
+import BankoIcon from "../../Assets/Cards/BankoIcon.png";
 
 const Notifications = () =>{
   const NotificationBanko = [
@@ -18,9 +18,9 @@ const Notifications = () =>{
           <h1 className={"NotifiDescription"}>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</h1>
           <div>
             <ul className={"UlNotifi"}>
-              <Li LiIcon={<FaCheckCircle className={"IconCheckWhite"}/>} Text={"Malesuada Ipsum"} className={"LiTrans"}/>
-              <Li LiIcon={<FaCheckCircle className={"IconCheckWhite"}/>} Text={"Vestibulum"} className={"LiTrans"}/>
-              <Li LiIcon={<FaCheckCircle className={"IconCheckWhite"}/>} Text={"Parturient Lorem"} className={"LiTrans"}/>
+              <Li LiClass={"LiComp"} LiIcon={<FaCheckCircle className={"IconCheckWhite"}/>} Text={"Malesuada Ipsum"} className={"LiTrans"}/>
+              <Li LiClass={"LiComp"} LiIcon={<FaCheckCircle className={"IconCheckWhite"}/>} Text={"Vestibulum"} className={"LiTrans"}/>
+              <Li LiClass={"LiComp"} LiIcon={<FaCheckCircle className={"IconCheckWhite"}/>} Text={"Parturient Lorem"} className={"LiTrans"}/>
             </ul>
           </div>
         </div>

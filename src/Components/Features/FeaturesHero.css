@@ -1,0 +1,33 @@
+.FeaturesHeroContainer{
+    @apply flex flex-col w-full items-center mt-20;
+}
+.FeaturesHeroTop{
+    @apply flex flex-col justify-between w-[50%] px-16 items-center
+    lg:w-[80%]
+    xl:w-[50%];
+}
+.FeaturesHeroTittle{
+    @apply text-7xl font-semibold text-black mt-5
+    ;
+}
+.FeaturesHeroSecondTittle{
+    @apply text-2xl font-semibold text-[#5BB5A2];
+}
+.FeaturesHeroDescription{
+    @apply text-lg font-medium text-black mt-5 w-[50%] text-center
+}
+.FeaturesHeroBtn{
+    @apply mt-10 space-x-5 ;
+}
+.FeaturesHeroCardContainer{
+    @apply flex flex-row w-full mt-20 items-end justify-between
+}
+.CardGreen{
+    @apply flex flex-col justify-between w-[15%] rounded-t-2xl
+}
+.CardGray{
+    @apply flex flex-col justify-between w-[15%] rounded-t-2xl
+}
+.CardGold{
+    @apply flex flex-col justify-between w-[15%] rounded-t-2xl
+}

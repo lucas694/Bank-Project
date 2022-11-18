@@ -1,21 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import FrontPage from "./Components/FrontPage/FrontPage";
 import Header from "./Components/Header";
-import Hero from "./Components/Hero";
-import Features from "./Components/Features";
-import Transactions from "./Components/Transactions";
-import Organize from "./Components/Organize";
-import Notifications from "./Components/Notifications";
+import Footer from "./Components/Footer/Footer";
+import Features from "./Components/Features/Features";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Hero/>
-      <Features/>
-      <Transactions/>
-      <Organize/>
-      <Notifications/>
+      <Router>
+        <Header/>
+        <Routes>
+          <Route path={"/"} element={<FrontPage/>}/>
+          <Route path={"/Features"} element={<Features/>}/>
+        </Routes>
+        <Footer/>
+      </Router>
 
     </div>
   );

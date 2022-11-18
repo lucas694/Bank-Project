@@ -1,0 +1,23 @@
+.FooterContainer{
+    @apply flex flex-row w-full mt-40 flex-wrap;
+}
+.FooterLeft{
+    @apply flex flex-col px-36 py-5 w-[30%];
+}
+.FooterRight{
+    @apply flex flex-row w-[70%] justify-between px-36 py-5;
+}
+
+.FooterBanquee{
+    @apply text-3xl font-bold text-[#5BB5A2] ;
+}
+.FooterTittles{
+    @apply text-base font-semibold text-black mt-5 ;
+}
+.FooterName{
+    @apply text-gray-500 text-sm font-semibold border-b-[1px] border-[#ff9800]
+}
+.FooterBott{
+    @apply flex flex-row w-[100%] h-[60px] mt-10 justify-center items-center
+    text-[#9e9e9e] text-xs font-medium border-t-[1px] border-gray-300
+}

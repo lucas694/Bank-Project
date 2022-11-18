@@ -1,0 +1,9 @@
+.UlFooter{
+    @apply flex flex-col mt-0 ;
+}
+.LiFooter{
+    @apply flex flex-col mt-2 items-start text-gray-500 font-semibold text-sm;
+}
+.LiFooter:hover{
+    @apply text-[#5BB5A2] ;
+}

@@ -1,7 +1,7 @@
 import "./Transactions.css"
 import { FaCheckCircle } from "react-icons/fa";
-import Li from "./Li";
-import AppleIconTrans from "../Assets/Cards/AppeIcon.png"
+import Li from "../Li";
+import AppleIconTrans from "../../Assets/Cards/AppeIcon.png"
 
 
 const Transactions = () => {
@@ -20,9 +20,9 @@ const Transactions = () => {
         <h1 className={"TransactionsDescription"}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</h1>
         <div>
           <ul className={"UlTrans"}>
-            <Li LiIcon={<FaCheckCircle className={"IconCheckGreen"}/>} Text={"Malesuada Ipsum"} className={"LiTrans"}/>
-            <Li LiIcon={<FaCheckCircle className={"IconCheckGreen"}/>} Text={"Vestibulum"} className={"LiTrans"}/>
-            <Li LiIcon={<FaCheckCircle className={"IconCheckGreen"}/>} Text={"Parturient Lorem"} className={"LiTrans"}/>
+            <Li LiClass={"LiComp"} LiIcon={<FaCheckCircle className={"IconCheckGreen"}/>} Text={"Malesuada Ipsum"} className={"LiTrans"}/>
+            <Li LiClass={"LiComp"} LiIcon={<FaCheckCircle className={"IconCheckGreen"}/>} Text={"Vestibulum"} className={"LiTrans"}/>
+            <Li LiClass={"LiComp"} LiIcon={<FaCheckCircle className={"IconCheckGreen"}/>} Text={"Parturient Lorem"} className={"LiTrans"}/>
           </ul>
         </div>
       </div>

@@ -1,11 +1,11 @@
 import "./Features.css"
-import FeaturesApp from "../Assets/Cards/Features/appFeatures.svg"
-import SavingAcc from "../Assets/Cards/Features/SavingAccounts.png"
-import InstantTrans from "../Assets/Cards/Features/IntantTransictions.png"
-import VirtualCards from "../Assets/Cards/Features/VirtualCards.png"
-import MobileBank from "../Assets/Cards/Features/MobileBank.png"
-import Contactless from "../Assets/Cards/Features/Contactless.png"
-import AdvancedStats from "../Assets/Cards/Features/AdvancedStatics.png"
+import FeaturesApp from "../../Assets/Cards/Features/appFeatures.svg"
+import SavingAcc from "../../Assets/Cards/Features/SavingAccounts.png"
+import InstantTrans from "../../Assets/Cards/Features/IntantTransictions.png"
+import VirtualCards from "../../Assets/Cards/Features/VirtualCards.png"
+import MobileBank from "../../Assets/Cards/Features/MobileBank.png"
+import Contactless from "../../Assets/Cards/Features/Contactless.png"
+import AdvancedStats from "../../Assets/Cards/Features/AdvancedStatics.png"
 
 
 const Features = () =>{
@@ -19,7 +19,7 @@ const Features = () =>{
   ]
   return(
 
-    <div className={"FeaturesContainer"}>
+    <div className={"FeaturesSectionContainer"}>
       <div className={"FeaturesLeft"}>
         <h1 className={"FeaturesTittle"}>One App.</h1>
         <h1 className={"FeaturesTittle"}>One banking.</h1>

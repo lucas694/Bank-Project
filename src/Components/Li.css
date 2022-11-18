@@ -1,3 +1,6 @@
 .LiComp{
     @apply text-base font-medium text-black flex flex-row items-center ;
 }
+.LiCompTextWhite{
+    @apply text-base font-medium text-white flex flex-row items-center ;
+}

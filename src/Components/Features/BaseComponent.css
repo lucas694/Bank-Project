@@ -1,0 +1,39 @@
+.BaseComponentContainer{
+    @apply flex flex-row w-[80%] mt-40 ;
+}
+
+.BaseComponentLeft{
+    @apply flex flex-col justify-center w-[50%]
+    lg:w-[60%]
+}
+
+.BaseComponentRight{
+    @apply flex flex-col justify-start w-[50%] items-center ;
+}
+
+.BaseCompTittle{
+    @apply text-6xl font-semibold w-[80%] mt-5
+    lg:text-6xl lg:w-[100%]
+    xl:w-[80%]
+}
+
+.BaseCompSecondTittle{
+    @apply text-base font-semibold w-[80%]
+    lg:text-sm lg:w-[100%]
+    xl:w-[80%] xl:text-base
+
+}
+
+.BaseCompDescript{
+    @apply text-base font-semibold w-[80%] mt-10
+    lg:text-sm lg:w-[100%]
+    xl:w-[80%] xl:text-base
+}
+
+.UlBaseComp{
+    @apply flex flex-col space-y-2 mt-10 ;
+}
+
+.BaseComponentImg{
+    @apply w-[20em] h-[40em] ;
+}

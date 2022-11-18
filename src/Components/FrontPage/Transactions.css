@@ -17,9 +17,6 @@
 .TransactionsRight{
     @apply lg:flex lg:flex-col lg:w-[50%] lg:items-center
 }
-.IconCheckGreen{
-    @apply lg:text-emerald-400 lg:mr-2 lg:bg-white lg:rounded-full lg:w-6 lg:h-6 lg:shadow-gray-500 lg:shadow-md
-}
 .UlTrans{
     @apply lg:flex lg:flex-col lg:w-[100%] lg:mt-10 justify-center lg:space-y-4
 }

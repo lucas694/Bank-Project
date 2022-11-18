@@ -1,0 +1,27 @@
+.CardSectionContainer{
+    @apply flex flex-col mt-40 w-[60%] justify-center items-center;
+}
+.CardSectionTittle{
+    @apply text-7xl font-semibold text-center;
+}
+.CardSectionDescript{
+    @apply text-lg font-semibold text-center mt-10
+}
+.CardSectionCards{
+    @apply flex flex-col mt-16 justify-center items-center relative
+    lg:w-[60%]
+    xl:w-[45%];
+}
+.CardGreenSect{
+    @apply  z-0 ;
+}
+.CardGraySect{
+    @apply  z-10 absolute ;
+
+}
+.CardGoldSect{
+    @apply  z-20 ;
+}
+.BtnSection{
+    @apply flex flex-row mt-8 justify-center items-center space-x-5;
+}

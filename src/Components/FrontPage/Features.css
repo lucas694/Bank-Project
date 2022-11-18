@@ -1,4 +1,4 @@
-.FeaturesContainer{
+.FeaturesSectionContainer{
     @apply flex flex-row flex-wrap mt-40 w-[80%] ;
 }
 .FeaturesLeft{

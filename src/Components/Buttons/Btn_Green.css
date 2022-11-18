@@ -1,5 +1,9 @@
 .Button_Green{
     @apply text-white font-medium text-base px-4 py-2 rounded-[10px] cursor-pointer shadow-sm shadow-gray-500
     transition ease-in-out delay-150 bg-[#5BB5A2] hover:-translate-y-1 hover:scale-110 hover:bg-[#489081] duration-300;
+}
 
+.Button_GreenFull{
+    @apply text-white font-medium text-base rounded-[8px] cursor-pointer shadow-sm shadow-gray-500 w-full py-2
+    transition ease-in-out delay-150 bg-[#5BB5A2] hover:-translate-y-1 hover:scale-110 hover:bg-[#489081] duration-300;
 }

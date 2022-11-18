@@ -1,0 +1,26 @@
+.FeatureCardsContainer{
+    @apply flex flex-col justify-center w-[21em]  items-center mt-10;
+}
+
+.FeatureCardsTop{
+    @apply flex flex-col w-[60%] items-center justify-center;
+}
+
+.FeatureCardsType{
+    @apply text-lg font-semibold text-black;
+}
+
+.FeatureCardsPrice{
+    @apply text-4xl font-bold text-black;
+}
+
+.FeatureCardDescript{
+    @apply text-gray-500 font-normal mt-3 text-center;
+}
+
+.FeatureCardImg{
+    @apply mt-7
+}
+.FeatureCardsBottom{
+    @apply mt-7 w-full
+}

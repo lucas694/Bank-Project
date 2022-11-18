@@ -1,7 +1,7 @@
 import "./Btn_White.css"
 const Btn_White = (props) => {
   return (
-    <button onClick={props.OnClick} className={"Button_White"}>
+    <button onClick={props.OnClick} className={props.classNameBtn}>
       {props.BtnText}
     </button>
   );

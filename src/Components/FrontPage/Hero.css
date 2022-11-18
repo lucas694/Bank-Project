@@ -23,10 +23,7 @@
     @apply
     lg:flex lg:flex-col lg:justify-center lg:flex-wrap lg:h-[4em] lg:space-y-2 lg:mt-10
 }
-.IconCheckWhite{
-    @apply
-    lg:text-white lg:mr-2 lg:bg-emerald-400 lg:rounded-full lg:w-6 lg:h-6 lg:shadow-gray-500 lg:shadow-md
-}
+
 .BtnDiv{
     @apply
     lg:flex lg:flex-row lg:mt-14 lg:space-x-6

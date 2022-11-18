@@ -1,3 +1,12 @@
 .App{
   @apply flex flex-col w-full items-center ;
 }
+
+.IconCheckWhite{
+  @apply
+  lg:text-white lg:mr-2 lg:bg-emerald-400 lg:rounded-full lg:w-6 lg:h-6 lg:shadow-gray-500 lg:shadow-md
+}
+
+.IconCheckGreen{
+  @apply lg:text-emerald-400 lg:mr-2 lg:bg-white lg:rounded-full lg:w-6 lg:h-6 lg:shadow-gray-500 lg:shadow-md
+}

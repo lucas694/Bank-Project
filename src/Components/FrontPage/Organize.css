@@ -23,6 +23,9 @@
     lg:flex lg:flex-col lg:w-[16em] lg:h-[16em] lg:ml-10
     xl:flex xl:flex-col xl:w-[15em] xl:h-[20em] xl:ml-10 ;
 }
+.OrganizeDivImg{
+    @apply flex justify-center rounded-2xl h-[15em] items-center
+}
 
 .OrganizeCardInfs{
     @apply xl:flex xl:flex-col xl:mt-4
