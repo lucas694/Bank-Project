@@ -1,33 +1,42 @@
 .FeaturesHeroContainer{
-    @apply flex flex-col w-full items-center mt-20;
+    @apply flex flex-col w-full items-center mt-10
+    lg:flex lg:flex-col lg:w-full lg:items-center lg:mt-20
 }
 .FeaturesHeroTop{
-    @apply flex flex-col justify-between w-[50%] px-16 items-center
+    @apply flex flex-col justify-between w-full px-14 items-center
+    lg:flex lg:flex-col lg:justify-between lg:w-[50%] lg:px-16 lg:items-center
     lg:w-[80%]
     xl:w-[50%];
 }
 .FeaturesHeroTittle{
-    @apply text-7xl font-semibold text-black mt-5
-    ;
+    @apply text-6xl font-semibold text-black mt-5 text-center
+    lg:text-7xl lg:font-semibold lg:text-black lg:mt-5
+
 }
 .FeaturesHeroSecondTittle{
-    @apply text-2xl font-semibold text-[#5BB5A2];
+    @apply text-2xl font-semibold text-[#5BB5A2]
 }
 .FeaturesHeroDescription{
-    @apply text-lg font-medium text-black mt-5 w-[50%] text-center
+    @apply text-lg font-medium text-black mt-5 w-[100%] text-center
+    lg:text-lg lg:font-medium lg:text-black lg:mt-5 lg:w-[50%] lg:text-center
 }
 .FeaturesHeroBtn{
-    @apply mt-10 space-x-5 ;
+    @apply mt-10 space-x-5 flex flex-row
+    lg:mt-10 lg:space-x-5 lg:flex lg:flex-row lg:justify-center;
 }
 .FeaturesHeroCardContainer{
-    @apply flex flex-row w-full mt-20 items-end justify-between
+    @apply flex flex-row w-full mt-10 items-end justify-between
+    lg:flex lg:flex-row lg:w-full lg:mt-20 lg:items-end lg:justify-between
 }
 .CardGreen{
-    @apply flex flex-col justify-between w-[15%] rounded-t-2xl
+    @apply flex flex-col justify-between w-[20%] rounded-t-2xl
+    lg:flex lg:flex-col lg:justify-between lg:w-[15%] lg:rounded-t-2xl
 }
 .CardGray{
-    @apply flex flex-col justify-between w-[15%] rounded-t-2xl
+    @apply flex flex-col justify-between w-[20%] rounded-t-2xl
+    lg:flex lg:flex-col lg:justify-between lg:w-[15%] lg:rounded-t-2xl
 }
 .CardGold{
-    @apply flex flex-col justify-between w-[15%] rounded-t-2xl
+    @apply flex flex-col justify-between w-[20%] rounded-t-2xl
+    lg:flex lg:flex-col lg:justify-between lg:w-[15%] lg:rounded-t-2xl
 }

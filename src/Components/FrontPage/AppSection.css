@@ -1,22 +1,26 @@
 .AppSectionContainer{
-    @apply mt-40 bg-[#5BB5A2] rounded-3xl h-[30em] px-16 flex flex-row
-    lg:w-[90%]
+    @apply hidden
+    lg:mt-40 lg:bg-[#5BB5A2] lg:rounded-3xl lg:h-[30em] lg:px-16 lg:flex lg:flex-row lg:w-[90%]
     xl:w-[70%]
     2xl:w-[60%]}
 .AppSectionLeft{
-    @apply flex flex-col justify-center w-[60%] py-12 items-center
+    @apply flex flex-col justify-center w-[60%] py-5 items-center
+    lg:flex lg:flex-col lg:justify-center lg:w-[60%] lg:py-12 lg:items-center
     2xl:w-[65%]
 }
 .AppSectionTittle{
-    @apply text-5xl font-semibold text-white
+    @apply text-3xl font-semibold text-white
+    lg:text-5xl lg:font-semibold lg:text-white
 }
 .AppSectionDescript{
-    @apply text-base font-medium text-white mt-5 w-[80%]
+    @apply text-base font-medium text-white mt-4 w-[80%]
+    lg:text-base lg:font-medium lg:text-white lg:mt-5 lg:w-[80%]
     lg:text-base lg:w-[90%]
     2xl:text-base 2xl:w-[80%]
 }
 .CheckSection{
- @apply flex flex-col flex-wrap mt-10 justify-between h-[4em] flex-wrap w-[100%]
+ @apply flex flex-col flex-wrap mt-0 justify-between h-[0em] flex-wrap w-[100%]
+ lg:flex lg:flex-col lg:flex-wrap lg:mt-10 lg:justify-between lg:h-[4em] lg:flex-wrap lg:w-[100%]
 }
 .AppIconSect{
     @apply w-[10em] h-[3em]

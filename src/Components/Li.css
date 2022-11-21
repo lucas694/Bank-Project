@@ -1,6 +1,8 @@
 .LiComp{
-    @apply text-base font-medium text-black flex flex-row items-center ;
+    @apply text-base font-medium text-black flex flex-row items-center
+    lg:text-base lg:font-medium lg:text-black lg:flex lg:flex-row lg:items-center ;
 }
 .LiCompTextWhite{
-    @apply text-base font-medium text-white flex flex-row items-center ;
+    @apply text-base font-medium text-white flex flex-row items-center
+    lg:text-base lg:font-medium lg:text-white lg:flex lg:flex-row lg:items-center ;
 }

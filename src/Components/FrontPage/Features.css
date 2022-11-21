@@ -1,35 +1,38 @@
 .FeaturesSectionContainer{
-    @apply flex flex-row flex-wrap mt-40 w-[80%] ;
+    @apply flex flex-row flex-wrap mt-20 w-full
+    lg:flex lg:flex-row lg:flex-wrap lg:mt-40 lg:w-[80%] ;
 }
 .FeaturesLeft{
-    @apply w-[50%] flex flex-col ml-10 mt-10
-    lg:w-[60%]
+    @apply w-full flex flex-col ml-0
+    lg:w-[60%] lg:flex lg:flex-col lg:ml-10 lg:mt-10
     xl:w-[50%]
     2xl:w-[60%]
 }
 .FeaturesRight{
-    @apply flex flex-col justify-start ml-14;
+    @apply flex flex-col justify-center mt-10 items-center
+    lg:flex lg:flex-col lg:justify-start lg:ml-14 lg:mt-0;
 }
 .AppFeaturesImg{
-    @apply w-[30em] h-[50em] object-contain
+    @apply w-[28em] h-[40em] object-contain
     lg:w-[14em] lg:h-[40em] lg:ml-0
     xl:w-[20em] xl:h-[40em] xl:ml-10
     2xl:w-[21em] 2xl:h-[50em]
 }
 .FeaturesTittle{
-    @apply text-8xl font-semibold
-    lg:text-7xl
+    @apply text-6xl font-semibold w-full text-center
+    lg:text-7xl lg:font-semibold lg:w-full lg:text-start
     xl:text-7xl
     2xl:text-8xl
 }
 .FeaturesCardContainer{
-    @apply flex flex-row flex-wrap mt-10   ;
+    @apply flex flex-row flex-wrap mt-10
+    lg:flex lg:flex-row lg:flex-wrap lg:mt-10   ;
 }
 .FeaturesIcon{
     @apply w-[3em] h-[3em] shadow-md rounded-full shadow-gray-400
 }
 .FeaturesCard{
-    @apply flex flex-col justify-center w-[15em] h-[20em] bg-white rounded-lg shadow-lg
+    @apply flex flex-col justify-center w-[11em] h-[15em] bg-white rounded-lg shadow-lg ml-4
     lg:w-[9em] lg:h-[15em] lg:mr-4
     xl:w-[9em] xl:h-[15em] xl:mr-5
     2xl:w-[15em] 2xl:h-[20em] 2xl:mr-0

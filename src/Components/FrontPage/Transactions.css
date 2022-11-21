@@ -1,41 +1,51 @@
 .TransactionsContainer{
-    @apply flex flex-row w-[80%] mt-40
+    @apply flex flex-col w-full mt-20 ml-0
+    lg:flex lg:flex-row lg:w-[80%] lg:mt-40 lg:ml-0
 }
 .TransactionsTittle{
-    @apply text-7xl font-semibold
-    lg:w-[100%] lg:text-6xl
+    @apply text-6xl font-semibold w-[100%] text-center
+    lg:w-[100%] lg:text-6xl lg:text-start
     xl:w-[85%] xl:text-7xl
 }
 .TransactionsDescription{
-    @apply text-lg font-semibold w-[70%] mt-10
-    lg:w-[90%] lg:text-base
+    @apply text-lg font-semibold w-[100%] mt-6 text-center
+    lg:w-[90%] lg:text-base lg:mt-10 lg:text-start
     xl:w-[70%] xl:text-lg
 }
 .TransactionsLeft{
-    @apply lg:flex lg:flex-col lg:w-[50%] lg:ml-10
+    @apply flex flex-col w-[100%]
+    lg:flex lg:flex-col lg:w-[50%] lg:ml-10
 }
 .TransactionsRight{
-    @apply lg:flex lg:flex-col lg:w-[50%] lg:items-center
+    @apply flex flex-col w-[100%] items-center mt-10
+    lg:flex lg:flex-col lg:w-[50%] lg:items-center lg:mt-0
 }
 .UlTrans{
-    @apply lg:flex lg:flex-col lg:w-[100%] lg:mt-10 justify-center lg:space-y-4
+    @apply flex flex-col w-[100%] mt-4 justify-center space-y-2
+    lg:flex lg:flex-col lg:w-[100%] lg:mt-10 lg:justify-center lg:space-y-4
 }
 .LiTrans{
-    @apply lg:flex lg:flex-row lg:w-[100%] lg:justify-between
+    @apply flex flex-row w-[100%] justify-between
+    lg:flex lg:flex-row lg:w-[100%] lg:justify-between
 }
 .TransCardContainer{
-    @apply lg:flex lg:flex-col lg:w-[50%]
+    @apply flex flex-col w-[80%]
+    lg:flex lg:flex-col lg:w-[50%]
 }
 
 .TransCard{
-    @apply lg:flex lg:flex-row lg:items-center lg:mt-8
+    @apply flex flex-row items-center mt-8
+    lg:flex lg:flex-row lg:items-center lg:mt-8
 }
 .TextCardSection{
-    @apply lg:flex lg:flex-col lg:w-[100%] lg:ml-4
+    @apply flex flex-col w-[100%] ml-4
+    lg:flex lg:flex-col lg:w-[100%] lg:ml-4
 }
 .TransCardTittle{
-    @apply lg:text-base lg:font-semibold
+    @apply text-base font-semibold
+    lg:text-base lg:font-semibold
 }
 .TransCardDescription{
-    @apply lg:text-sm  lg:text-gray-500
+    @apply text-sm  text-gray-500
+    lg:text-sm  lg:text-gray-500
 }

@@ -1,19 +1,22 @@
 .BaseComponentContainer{
-    @apply flex flex-row w-[80%] mt-40 ;
+    @apply flex flex-row w-[80%] mt-20 flex-wrap
+    lg:flex lg:flex-row lg:w-[80%] lg:mt-40;
 }
 
 .BaseComponentLeft{
-    @apply flex flex-col justify-center w-[50%]
+    @apply flex flex-col justify-center w-full
+    lg:flex lg:flex-col lg:justify-center lg:w-[50%]
     lg:w-[60%]
 }
 
 .BaseComponentRight{
-    @apply flex flex-col justify-start w-[50%] items-center ;
+    @apply flex flex-col justify-start w-full items-center
+    lg:flex lg:flex-col lg:justify-start lg:w-[40%] lg:items-center ;
 }
 
 .BaseCompTittle{
-    @apply text-6xl font-semibold w-[80%] mt-5
-    lg:text-6xl lg:w-[100%]
+    @apply text-5xl font-semibold w-[100%] mt-5
+    lg:text-6xl lg:w-[100%] lg:mt-5
     xl:w-[80%]
 }
 
@@ -25,15 +28,17 @@
 }
 
 .BaseCompDescript{
-    @apply text-base font-semibold w-[80%] mt-10
+    @apply text-base font-semibold w-[95%] mt-4
     lg:text-sm lg:w-[100%]
     xl:w-[80%] xl:text-base
 }
 
 .UlBaseComp{
-    @apply flex flex-col space-y-2 mt-10 ;
+    @apply flex flex-col space-y-2 mt-5
+    lg:flex lg:flex-col lg:space-y-2 lg:mt-10 ;
 }
 
 .BaseComponentImg{
-    @apply w-[20em] h-[40em] ;
+    @apply w-[20em] h-[40em] mt-10
+    lg:w-[20em] lg:h-[40em] lg:mt-0;
 }

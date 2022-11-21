@@ -1,19 +1,37 @@
 .HeaderContainer{
-    @apply flex flex-row w-full ;
+    @apply
+    lg:flex lg:flex-row lg:w-full ;
 }
-.HeaderContent{
-    @apply flex flex-row justify-between py-5 px-36 w-full
+.HeaderMainNav{
+    @apply hidden
+    lg:flex lg:flex-row lg:justify-between lg:py-5 lg:px-36 lg:w-full
 }
 .HeaderBanquee{
-    @apply text-3xl font-bold text-[#5BB5A2] ;
+    @apply text-xl font-bold text-[#5BB5A2]
+    lg:text-3xl lg:font-bold
 }
 .UlHeader{
-    @apply flex flex-row space-x-7;
+    @apply
+    lg:flex lg:flex-row lg:space-x-7;
 }
 .LiHeader{
-    @apply text-base font-medium text-black cursor-pointer;
+    @apply lg:text-base lg:font-medium lg:text-black lg:cursor-pointer;
 }
 
 .DivBtn{
-    @apply flex flex-row space-x-4 ;
+    @apply lg:flex lg:flex-row lg:space-x-4 ;
+}
+.HeaderMobileNav{
+    @apply flex flex-row w-full bg-gray-200 justify-center px-10 py-5 rounded-t-2xl
+    fixed bottom-0 z-50 right-0 left-0
+    lg:hidden
+}
+.HeaderMobileNavBtn{
+    @apply flex flex-col items-center justify-between px-5
+}
+.HeaderMobileNavBtnIcon{
+    @apply text-xl
+}
+.NavBtnText{
+    @apply text-base font-medium text-black
 }

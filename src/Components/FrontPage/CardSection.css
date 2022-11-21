@@ -1,11 +1,14 @@
 .CardSectionContainer{
-    @apply flex flex-col mt-40 w-[60%] justify-center items-center;
+    @apply flex flex-col mt-10 w-[85%] justify-center items-center
+    lg:flex lg:flex-col lg:mt-40 lg:w-[60%] lg:justify-center lg:items-center
 }
 .CardSectionTittle{
-    @apply text-7xl font-semibold text-center;
+    @apply text-6xl font-semibold text-center
+    lg:text-7xl lg:font-semibold lg:text-center
 }
 .CardSectionDescript{
-    @apply text-lg font-semibold text-center mt-10
+    @apply text-base font-semibold text-center mt-5
+    lg:text-lg lg:font-semibold lg:text-center lg:mt-10
 }
 .CardSectionCards{
     @apply flex flex-col mt-16 justify-center items-center relative
