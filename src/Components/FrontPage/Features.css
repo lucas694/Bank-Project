@@ -32,8 +32,8 @@
     @apply w-[3em] h-[3em] shadow-md rounded-full shadow-gray-400
 }
 .FeaturesCard{
-    @apply flex flex-col justify-center w-[11em] h-[15em] bg-white rounded-lg shadow-lg ml-4
-    lg:w-[9em] lg:h-[15em] lg:mr-4
+    @apply flex flex-col justify-center w-[10.3em] h-[15em] bg-white rounded-lg shadow-lg ml-4 mt-4
+    lg:w-[9em] lg:h-[15em] lg:mr-4 lg:mt-0
     xl:w-[9em] xl:h-[15em] xl:mr-5
     2xl:w-[15em] 2xl:h-[20em] 2xl:mr-0
 }
